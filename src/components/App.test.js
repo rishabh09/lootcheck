@@ -8,4 +8,7 @@ describe('App', () => {
   it('renders properly', () => {
     expect(app).toMatchSnapshot()
   })
+  it('contains connected wallet component', () => {
+    expect(app.find('Connect(Wallet)').exists()).toBe(true)
+  })
 })

@@ -33,6 +33,8 @@
     "react-test-renderer": "^16.2.0"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
+    "collectCoverage": true,
+    "coverageFormats": ["json", "html"]
   }
 }
